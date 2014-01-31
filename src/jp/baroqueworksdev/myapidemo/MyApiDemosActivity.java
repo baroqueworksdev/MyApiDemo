@@ -1,3 +1,4 @@
+
 package jp.baroqueworksdev.myapidemo;
 
 import java.text.Collator;
@@ -32,8 +33,12 @@ public class MyApiDemosActivity extends ListActivity {
         }
 
         setListAdapter(new SimpleAdapter(this, getData(path),
-                android.R.layout.simple_list_item_1, new String[] { "title" },
-                new int[] { android.R.id.text1 }));
+                android.R.layout.simple_list_item_1, new String[] {
+                    "title"
+                },
+                new int[] {
+                    android.R.id.text1
+                }));
         getListView().setTextFilterEnabled(true);
     }
 

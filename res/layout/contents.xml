@@ -32,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/imageView2"
+            android:textColor="@android:color/white"
             android:text="@string/sildingview_contests" />
     </RelativeLayout>
 

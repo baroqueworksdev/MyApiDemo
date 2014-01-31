@@ -1,3 +1,4 @@
+
 package jp.baroqueworksdev.myapidemo.activity;
 
 import jp.baroqueworksdev.myapidemo.R;
